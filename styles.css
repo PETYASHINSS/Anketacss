@@ -1,0 +1,159 @@
+body {
+	background: #ffd1dc;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*a:active {
+	color: blue;
+}*/
+a {
+	color: black;
+	text-decoration: none;
+}
+.avatar {
+	width: 250px;
+	border-radius: 15%;
+	box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.25);
+}
+.info p {
+	color: #5d9b9b;
+	margin: 0;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.info {
+	margin-bottom: 20px;
+}
+.card h1 {
+	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.list {
+	padding: 0px 20 px;
+}
+/*.social {
+	background: green;
+	padding: 5px 20px;
+	margin: 10wpx;
+
+	border: 5px solid purple;
+	border-top-width: 5px;
+}*/
+.container {
+	max-width: 75%;
+	margin: auto;
+}
+
+.bg-aquamarine {
+	background: aquamarine;
+}
+.bg-greenyellow {
+	background: greenyellow;
+}
+.bg-yellow {
+	background: rgb(236, 236, 93);
+}
+.card {
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 40px;
+}
+.table {
+	width: 100%;
+}
+
+.table td:nth-child(1) {
+	color: gray;
+}
+
+.sety {
+	margin-top: 20px;
+}
+.sety a:first-child {
+	content: url('https://api.iconify.design/uil/vk.svg?color=blue&width=40&height=40');
+}
+.sety a:nth-child(2) {
+	content: url('https://api.iconify.design/ic/baseline-telegram.svg?color=%2342aaff&width=40&height=40');
+}
+.sety a:nth-child(3) {
+	content: url('https://api.iconify.design/mdi/youtube.svg?color=red&width=40&height=40');
+}
+.sety a:nth-child(4) {
+	content: url('https://api.iconify.design/mdi/spotify.svg?color=%231db954&width=40&height=40');
+}
+.sety a:last-child {
+	content: url('https://api.iconify.design/skill-icons/instagram.svg?color=%231db954&width=40&height=40');
+}
+.sety a {
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.name-sety {
+	font-size: 20px;
+	display: block;
+	margin-top: 27px;
+}
+.name-sety p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+	margin-bottom: 25px;
+}
+
+.link-list {
+	list-style: none;
+	padding: 0px;
+}
+.link-list li {
+	margin-bottom: 15px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ffffff;
+	margin-left: 20px;
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color: black;
+}
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	color: gray;
+	padding: 10px 0 10px 0;
+	outline: 0;
+	font-family: inherit;
+	background: transparent;
+}
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+.row > .form-group {
+	width: 50%;
+	margin: 20px;
+}
+.row > .form-group:last-child {
+	margin-right: 0px;
+}
+.form-group textarea {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 98%;
+}
+
+.foto-sety {
+	display: flex;
+}
